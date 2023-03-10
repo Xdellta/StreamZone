@@ -1,0 +1,29 @@
+:root {
+  --main1: #202128;
+  --main2: #242732;
+  --blue: #2677ED;
+  --green: #88B689;
+  --red: #EB0400;
+  --gray: #696C76;
+  --white: whitesmoke;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: var(--white);
+  background-color: var(--main1);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
